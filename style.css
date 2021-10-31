@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+
+main {
+  /* background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png"); */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+p,
+span,
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo h2 {
+  letter-spacing: 2px;
+}
+
+/* Navigation */
+
+nav {
+  margin: 0 10%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.88rem;
+}
+
+.navactive {
+  border-bottom: 1px solid #304b7b;
+}
+
+main {
+  margin: 0 10vw;
+}
+
+/* Hero Image */
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero img {
+  width: 90vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* Subcategories */
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.subcat {
+  width: 10vw;
+  padding: 1rem;
+  text-align: center;
+}
+
+.categories a {
+  text-decoration: none;
+  color: white;
+}
+
+.bed {
+  background-color: #4551af;
+}
+
+.kit {
+  background-color: #304b7b;
+}
+
+.cloth {
+  background-color: #604caf;
+}
+
+.art {
+  background-color: #45af9b;
+}
+
+.accs {
+  background-color: #307a6d;
+}
+
+/* Article Section */
+
+.article {
+  display: flex;
+  margin-top: 10%;
+}
+
+.arttext {
+  padding: 2rem;
+}
+
+.arttext h2 {
+  font-size: 2.8rem;
+}
+
+.shopbtn {
+  width: 30%;
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: #304b7b;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.arttext p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.artmedia img {
+  width: 50vw;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.styles {
+  margin-top: 10%;
+}
+
+.styles h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.stylecats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stylecard {
+  text-decoration: none;
+  color: black;
+}
+
+.stylecard img {
+  width: 18vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+/* Products page - MA2 */
+
+.heroindoor {
+  max-width: 100%;
+  width: 90vw;
+  margin: auto;
+}
+
+.heroindoor img {
+  max-width: 100%;
+}
+
+.heroindoor::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0,
+    #fff 100%
+  );
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: "";
+}
+
+.products h1 {
+  margin-top: 10vh;
+  font-size: 2.8rem;
+}
+
+.prodcont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prod img {
+  width: 18vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.prod {
+  text-decoration: none;
+  color: black;
+}
