@@ -5,6 +5,13 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
 }
 
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("./fonts/RobotoSlab-VariableFont_wght.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
 main {
   /* background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png"); */
@@ -92,6 +99,7 @@ main {
   width: 10vw;
   padding: 1rem;
   text-align: center;
+  font-family: "Roboto Slab", serif;
 }
 
 .categories a {
